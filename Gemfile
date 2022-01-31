@@ -13,6 +13,7 @@ gem 'pundit', github: 'varvet/pundit'
 gem 'rack-cors'
 gem 'rails', '~> 6.1.4', '>= 6.1.4.4'
 gem 'aws-sdk-s3', require: false
+gem 'geocoder'
 
 group :development, :test do
   gem 'factory_bot_rails'

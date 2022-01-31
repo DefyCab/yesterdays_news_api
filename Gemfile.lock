@@ -118,6 +118,7 @@ GEM
     faker (2.19.0)
       i18n (>= 1.6, < 2)
     ffi (1.15.5)
+    geocoder (1.7.3)
     globalid (1.0.0)
       activesupport (>= 5.0)
     i18n (1.8.11)
@@ -246,6 +247,7 @@ DEPENDENCIES
   devise_token_auth
   factory_bot_rails
   faker
+  geocoder
   listen (~> 3.3)
   pg (~> 1.1)
   pry-rails
@@ -263,4 +265,4 @@ RUBY VERSION
    ruby 3.0.0p0
 
 BUNDLED WITH
-   2.2.33
+   2.3.4
