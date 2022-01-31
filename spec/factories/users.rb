@@ -4,5 +4,6 @@ FactoryBot.define do
     email { Faker::Internet.unique.email }
     password { '123456789' }
     role { nil }
+    address { 'stockholm' }
   end
 end

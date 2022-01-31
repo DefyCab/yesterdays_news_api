@@ -4,6 +4,7 @@ FactoryBot.define do
     body { 'This is my article body' }
     category
     user
+    edition
     after(:build) do |article|
       article.image.attach(
         io: File.open(Rails.root.join('spec', 'fixtures', 'dummy_image.jpg')),
